@@ -5,6 +5,7 @@ on:
     branches:
       - master
       - main
+      - claude/setup-cv-portfolio-site-8AvNk
     paths:
       - "assets/**"
       - "**.bib"
