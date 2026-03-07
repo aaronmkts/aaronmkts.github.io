@@ -2,96 +2,90 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Aaron M. Thomas
+    - name: Affiliation
+      value: University of Birmingham, Department of Computer Science
+    - name: Research Group
+      value: Science for AI & AI for Science 2
     - name: Languages
-      value: English, German
+      value: English
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD, Computer Science
+      institution: University of Birmingham, Birmingham, United Kingdom
+      year: 2023 – Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - Member of the Science for AI & AI for Science 2 group.
+        - "Research interests: Quantum Machine Learning, generative modelling, drug discovery, and parameter-efficient fine-tuning."
+        - title: Relevant training
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+            - NISQ Quantum Computing School, University of Sherbrooke — Grade A
+    - title: MSci Theoretical Physics — 1st Class Honours
+      institution: Imperial College London, London, United Kingdom
+      year: 2019 – 2023
       description:
-        - Description 1.
-        - Description 2.
+        - "Final grade: 1st Class Honours."
+        - "MSci Thesis: Neural Predictor-Guided Quantum Ansatz Search."
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Intern — Graph Machine Learning
+      institution: National Institute of Informatics (NII), Tokyo, Japan
+      year: Oct 2025 – Mar 2026
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Implemented segmented Eulerised neighbourhood tree algorithm on molecular junction trees for molecular generation on hybrid quantum-classical LLMs.
+    - title: Research Intern — Quantum Machine Learning for Drug Discovery
+      institution: QunaSys, Copenhagen, Denmark
+      year: Oct 2024 – Present
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Contributing to the QuEnAIS and FULLMAP consortiums, developing quantum-enhanced AI methodologies for next-generation drug and battery discovery through hybrid quantum–classical modelling.
+    - title: Research Intern — Parameter Efficient Fine-tuning of LLMs
+      institution: DeepWok Lab, Imperial College London, London, United Kingdom
+      year: Jun 2023 – Oct 2023
       description:
+        - Co-authored an ACL 2025 long paper proposing refined salience-aware sparse fine-tuning strategies that improve parameter efficiency and performance in large language models.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Selected Publications
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: "VAE-QWGAN: Addressing Mode Collapse in Quantum GANs via Autoencoding Priors"
+      year: 2025
+      description:
+        - "A. M. Thomas, H. Youel & S. T. Jose"
+        - Quantum Machine Intelligence, 7, 91 (2025).
+        - Designed a hybrid quantum–classical generative model leveraging autoencoding priors to mitigate mode collapse in quantum GANs.
+    - title: "QCA-MolGAN: Quantum Circuit Associative Molecular GAN with Multi-Agent Reinforcement Learning"
+      year: 2025
+      description:
+        - "A. M. Thomas, Y. Chen, H. O. Valencia, S. T. Jose & R. Wu"
+        - IEEE Quantum Artificial Intelligence proceedings.
+        - Enhanced hybrid quantum generative adversarial networks for drug discovery with multi-agent reinforcement learning.
+    - title: "On the Generalization of Adversarially Trained Quantum Classifiers"
+      year: 2025
+      description:
+        - "P. Georgiou, A. M. Thomas, S. T. Jose & O. Simeone"
+        - arXiv preprint.
+        - Derived novel PAC/Rademacher-based generalization bounds quantifying how embedding choice and attack model affect robustness.
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
+- title: Skills
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Programming Languages & Tools
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Python, Julia
+        - Git / GitHub
+        - Unix / HPC command lines
+        - MS Office
+    - title: Frameworks & Libraries
       items:
-        - Description 1.
-        - Description 2.
+        - PyTorch, JAX, scikit-learn
+        - PennyLane, Qiskit, Quimb
+        - CUDA, Agentic ML
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - "<u>Hobbies:</u> Private Tuition Business, Travel and Landscape Photography, Amateur Boxing, Gym, Piano"
