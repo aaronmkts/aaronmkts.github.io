@@ -16,6 +16,6 @@ I co-developed this work with **Harry Youel** and **Sharu Theresa Jose** as part
 
 ### Paper
 
-*VAE-QWGAN: addressing mode collapse in quantum GANs via autoencoding priors*. Aaron Mark Thomas, Harry Youel and Sharu Theresa Jose. **Quantum Machine Intelligence 7, 91 (2025)**.
+_VAE-QWGAN: addressing mode collapse in quantum GANs via autoencoding priors_. Aaron Mark Thomas, Harry Youel and Sharu Theresa Jose. **Quantum Machine Intelligence 7, 91 (2025)**.
 
 [Read the published paper](https://doi.org/10.1007/s42484-025-00314-z)

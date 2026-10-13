@@ -4,16 +4,16 @@ Personal website built with the al-folio Jekyll theme. The intended public addre
 
 ## Maintaining the website
 
-| Content | Source |
-| --- | --- |
-| Name, contact links and site settings | `_config.yml` |
-| Biography and affiliations | `_pages/about.md` |
-| Experience and education | `_pages/experience.md` |
-| Personal interests | `_pages/personal.md` |
-| Project overviews | `_projects/vae-qwgan.md`, `_projects/graph-calibration.md`, `_projects/qca-molgan.md` |
-| Publications | `_bibliography/aaron.bib` |
-| Dated news | `_news/` |
-| Profile photograph | `assets/img/aaron-thomas.jpeg` |
+| Content                               | Source                                                                                |
+| ------------------------------------- | ------------------------------------------------------------------------------------- |
+| Name, contact links and site settings | `_config.yml`                                                                         |
+| Biography and affiliations            | `_pages/about.md`                                                                     |
+| Experience and education              | `_pages/experience.md`                                                                |
+| Personal interests                    | `_pages/personal.md`                                                                  |
+| Project overviews                     | `_projects/vae-qwgan.md`, `_projects/graph-calibration.md`, `_projects/qca-molgan.md` |
+| Publications                          | `_bibliography/aaron.bib`                                                             |
+| Dated news                            | `_news/`                                                                              |
+| Profile photograph                    | `assets/img/aaron-thomas.jpeg`                                                        |
 
 To add news, create `_news/YYYY-MM-DD-short-title.md` with this structure, using the actual event date:
 
@@ -24,6 +24,7 @@ date: YYYY-MM-DD
 inline: true
 related_posts: false
 ---
+
 A short announcement with a [source link](https://example.org).
 ```
 

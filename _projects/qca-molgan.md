@@ -16,6 +16,6 @@ The work connects my research in quantum generative modelling with molecular dis
 
 ### Paper
 
-*QCA-MolGAN: Quantum Circuit Associative Molecular GAN with Multi-Agent Reinforcement Learning*. Aaron Mark Thomas, Yu-Cheng Chen, Hubert Okadome Valencia, Sharu Theresa Jose and Ronin Wu.
+_QCA-MolGAN: Quantum Circuit Associative Molecular GAN with Multi-Agent Reinforcement Learning_. Aaron Mark Thomas, Yu-Cheng Chen, Hubert Okadome Valencia, Sharu Theresa Jose and Ronin Wu.
 
 [IEEE publication](https://ieeexplore.ieee.org/abstract/document/11344621) · [Open preprint](https://arxiv.org/abs/2509.05051)

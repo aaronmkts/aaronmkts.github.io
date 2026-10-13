@@ -16,7 +16,7 @@ This collaboration grew out of my research internship at the **National Institut
 
 ### Paper
 
-*Same Graph, Different Likelihoods: Calibration of Autoregressive Graph Generators via Permutation-Equivalent Encodings*. Laurits Fredsgaard, Aaron Thomas, Michael Riis Andersen, Mikkel N. Schmidt and Mahito Sugiyama.
+_Same Graph, Different Likelihoods: Calibration of Autoregressive Graph Generators via Permutation-Equivalent Encodings_. Laurits Fredsgaard, Aaron Thomas, Michael Riis Andersen, Mikkel N. Schmidt and Mahito Sugiyama.
 
 Workshop **Towards Trustworthy Predictions: Theory and Applications of Calibration for Modern AI**, AISTATS 2026.
 
