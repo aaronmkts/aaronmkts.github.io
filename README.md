@@ -1,4 +1,47 @@
-# al-folio
+# Aaron M. Thomas — personal research website
+
+Personal website built with the al-folio Jekyll theme. The intended public address is <https://aaronmkts.github.io>.
+
+## Maintaining the website
+
+| Content | Source |
+| --- | --- |
+| Name, contact links and site settings | `_config.yml` |
+| Biography and affiliations | `_pages/about.md` |
+| Experience and education | `_pages/experience.md` |
+| Personal interests | `_pages/personal.md` |
+| Project overviews | `_projects/vae-qwgan.md`, `_projects/graph-calibration.md`, `_projects/qca-molgan.md` |
+| Publications | `_bibliography/aaron.bib` |
+| Dated news | `_news/` |
+| Profile photograph | `assets/img/aaron-thomas.jpeg` |
+
+To add news, create `_news/YYYY-MM-DD-short-title.md` with this structure, using the actual event date:
+
+```markdown
+---
+layout: post
+date: YYYY-MM-DD
+inline: true
+related_posts: false
+---
+A short announcement with a [source link](https://example.org).
+```
+
+Keep descriptions grounded in the linked paper or an explicit update from Aaron. Distinguish preprints, workshops and main-conference publications. Do not infer acceptance dates from preprint dates.
+
+**Privacy and content:** Do not upload the source CV, add a CV download, or publish the telephone number. Experience is presented on the website itself. Keep hobbies and personal content on the Personal page. Email and LinkedIn are the public contact routes.
+
+Unused upstream demo pages, posts, projects, news and sample PDFs are excluded in `_config.yml`, so they remain recoverable in source without appearing on the site.
+
+## Building and publishing
+
+Use Ruby 3.2 (matching `.github/workflows/deploy.yml`), Bundler and ImageMagick. Run `bundle install`, then `JEKYLL_ENV=production bundle exec jekyll build`. Serve `_site/` locally to preview the result.
+
+The existing deployment workflow builds pushes to `master` and publishes to `gh-pages`; GitHub Pages serves that branch. Preview and review content before pushing to the publishing branch. New page and news edits follow the same build process.
+
+## Upstream theme documentation
+
+The original al-folio documentation follows.
 
 <div align="center">
 
